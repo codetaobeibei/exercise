@@ -1,2 +1,2 @@
 # exercise
-this is an personal programming exercise, the codes are from other websites, such as leetcode. just for summary.
+this is a programming exercise, the codes are from other websites for programming exercise, such as leetcode. just for summary.
