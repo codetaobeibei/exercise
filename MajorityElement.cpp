@@ -21,7 +21,12 @@ public:
 };
 
 /****************Sorting*****************/
-/*Since the majority element appears more than n / 2 times, the n / 2-th element in the sorted nums must be the majority element. This can be proved intuitively. Note that the majority element will take more than n / 2 positions in the sorted nums (cover more than half of nums). If the first of it appears in the 0-th position, it will also appear in the n / 2-th position to cover more than half of nums. It is similar if the last of it appears in the n - 1-th position. These two cases are that the contiguous chunk of the majority element is to the leftmost and the rightmost in nums. For other cases (imagine the chunk moves between the left and the right end), it must also appear in the n / 2-th position.
+/*Since the majority element appears more than n / 2 times, the n / 2-th element in the sorted nums must be the majority element. 
+This can be proved intuitively. Note that the majority element will take more than n / 2 positions in the sorted nums (cover more
+than half of nums). If the first of it appears in the 0-th position, it will also appear in the n / 2-th position to cover more 
+than half of nums. It is similar if the last of it appears in the n - 1-th position. These two cases are that the contiguous chunk
+of the majority element is to the leftmost and the rightmost in nums. For other cases (imagine the chunk moves between the left 
+and the right end), it must also appear in the n / 2-th position.
 */
 /*class Solution {
 public:
