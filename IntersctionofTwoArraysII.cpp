@@ -16,6 +16,7 @@ What if elements of nums2 are stored on disk, and the memory is limited such tha
 using namespace std;
 class Solution {
 public:
+    //9ms
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
         if(nums2.empty()||nums1.empty()) return nums1.empty()?nums1:nums2;
         vector<int> vec;
@@ -36,6 +37,7 @@ public:
     }
 };
 
+//6ms
 /*vector<int> intersect(vector<int>& a, vector<int>& b) {
     sort(a.begin(), a.end());
     sort(b.begin(), b.end());
